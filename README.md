@@ -21,4 +21,4 @@ The model is trained using a "bipartite matching loss": one compares the predict
 # Challanges
 To achieve state of the art, these models needs to be trained with large number of epochs to acheive maximum accuracy. I only train YOLO over 20 epochs and Faster RCNN over 5 epochs keeping the computational resources in mind.
 # Results 
-![image](https://user-images.githubusercontent.com/105879152/188855370-4beee616-b27e-4a2c-9a2a-2c7db5829175.png)
+ Acheive mAP( mean average precision) @ 50 IOU of 78.2% with confidence 0.2 and IOU threshold 0.45 using NMS(Non Maximum supression).
