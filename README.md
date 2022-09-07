@@ -6,7 +6,7 @@ Object localization is also known as simultaneous classification and localizatio
 Object Detection = Image classification + Object localization.
 
 # Techniques Used to built state-of-the-art object detection.
-There have been many popular approaches for detecting objects. Amongst them, the popular ones which I am implementing are the Region proposal, regression and transformer approach models. Three different models are built to detect objects over 80 classes. 
+There have been many popular approaches for detecting objects. Amongst them, the popular ones which I am implementing are the Region proposal, regression and transformer approach models. Three different models are built to detect objects upto 80 classes. 
 ## Regression-Based Model: YOLO
 YOLO is a state-of-the-art, object detection algorithm. YOLO is an abbreviation for the term ‘You Only Look Once’ Joseph Redmon was the one who created it. The speed without much precision comprises is the major benefit over other designs. In comparison to R-CNN and other models, the YOLO family models learn relatively generic representations of the object quickly. By interpreting object detection as a single regression problem that spatially separates bounding boxes and associated class probabilities, YOLO avoids the need for complicated pipelines. YOLO directly optimizes detection performance while training on complete photos. It offers a single neural network that, in a single assessment, predicts bounding boxes and class probabilities from the entire image.
 ##	Region proposal Model: Faster RCNN
