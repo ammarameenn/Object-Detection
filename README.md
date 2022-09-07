@@ -20,3 +20,5 @@ The model is trained using a "bipartite matching loss": one compares the predict
 3. New computer vision tools like Albumentations, OpenCV
 # Challanges
 To achieve state of the art, these models needs to be trained with large number of epochs to acheive maximum accuracy. I only train YOLO over 20 epochs and Faster RCNN over 5 epochs keeping the computational resources in mind.
+# Results 
+![image](https://user-images.githubusercontent.com/105879152/188855370-4beee616-b27e-4a2c-9a2a-2c7db5829175.png)
