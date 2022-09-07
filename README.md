@@ -17,6 +17,6 @@ The model is trained using a "bipartite matching loss": one compares the predict
 # Learning
 1. Better understanding of optimizers like Adam, Adagrad, RMSprop, SGD.
 2. Usage of transformers for object detection.
-3. Using new libraries like Albumentations, OpenCV
+3. New computer vision tools like Albumentations, OpenCV
 # Challanges
 To achieve state of the art, these models needs to be trained with large number of epochs to acheive maximum accuracy. I only train YOLO over 20 epochs and Faster RCNN over 5 epochs keeping the computational resources in mind.
